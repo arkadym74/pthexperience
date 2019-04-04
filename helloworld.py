@@ -88,3 +88,24 @@ print(monthOfYear[-1])
 
 #Dictionary
 
+userNameAndAge = {"Peter":38, "John":51, "Alex":13, "Alvin":"Not Available"}
+
+print(userNameAndAge)
+
+userNameAndAge = dict(Peter = 38, John = 51, Alex = 13, Alvin = "Not Available")
+
+print(userNameAndAge)
+
+print(userNameAndAge["John"])
+
+userNameAndAge["John"] = 21
+
+print(userNameAndAge)
+
+userNameAndAge = {}
+
+userNameAndAge["Joe"] = 40
+
+print(userNameAndAge)
+
+
